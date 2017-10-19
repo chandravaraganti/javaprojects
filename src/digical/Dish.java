@@ -8,7 +8,7 @@ public class Dish {
      String addr="http://localhost:9999/sample/web";
       Product pr=new Product();
       Endpoint.publish(addr, pr);
-      System.out.println("succes");
+      System.out.println("success");
 
 	}
 
